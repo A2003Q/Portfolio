@@ -239,7 +239,6 @@ nav {
   overflow: hidden;
 }
 
-/* ABSTRACT SHAPES */
 .about-bg-shape {
   position: absolute;
   filter: blur(70px);
@@ -670,7 +669,7 @@ nav {
 
 .skills-section {
   padding: 50px 20px;
-  background-color: #4b3f35;
+  background-color: #b8a392;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -680,7 +679,7 @@ nav {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 35px;
-  color: white;
+  color: #4b3f35;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -806,26 +805,27 @@ nav {
   font-weight: 700;
   letter-spacing: 2px;
 }
+.footer-links {
+  display: flex; /* horizontal layout */
+  justify-content: center; /* center the links horizontally */
+  gap: 450px; /* space between each link */
+  flex-wrap: wrap; /* wrap to next line if screen is small */
+  margin-top: 10px; /* optional spacing from top */
+}
 
 .footer-links a {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* space between icon and text */
   text-decoration: none;
   color: #4b3f35;
   font-weight: 500;
-  margin: 0 10px;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
   transition: 0.3s ease;
 }
 
 .footer-links a:hover {
   color: #2a241f;
   transform: translateY(-3px);
-}
-
-.footer-copy {
-  font-size: 14px;
-  color: #5c5047;
 }
 
 /* Responsive */
